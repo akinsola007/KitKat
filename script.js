@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('enterButton').addEventListener('click', checkPassword);
+});
 function checkPassword() {
     const password = document.getElementById('password').value;
     if (password === 'Ifeyikiitan') {
